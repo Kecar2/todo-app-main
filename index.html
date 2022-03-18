@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <title>Frontend Mentor | Todo app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Todo</h1>
+      <div class="theme">
+        <img src="images/icon-sun.svg" alt="" />
+      </div>
+    </header>
+
+    <main>
+      <div class="create--input">
+        <form action="#" name="create-input">
+          <input type="submit" value="+" class="submit--button" />
+          <input
+            class="new-todo"
+            type="text"
+            name="new-todo"
+            placeholder="Create a new todo..."
+          />
+        </form>
+      </div>
+
+      <div class="list">
+        <div class="list-top">
+          <div class="counter"><span id="counter">0</span> items left</div>
+          <div class="clear">
+            <span class="clear-button">Clear</span>
+          </div>
+        </div>
+      </div>
+      <div class="active">Active</div>
+      <div class="completed">Completed</div>
+      <div class="all">All</div>
+    </main>
+
+    <footer>Drag and drop to reorderlist</footer>
+
+    <!-- Add dynamic number -->
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>. -->
+    <!-- </div> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
